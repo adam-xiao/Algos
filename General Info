@@ -1,0 +1,22 @@
+The Recursion and Iteration both repeatedly execute the set of instructions. Recursion is when a statement in a function calls itself repeatedly. 
+The iteration is when a loop repeatedly executes until the controlling condition becomes false. 
+The primary difference between recursion and iteration is that recursion is a process, always applied to a function and 
+iteration is applied to the set of instructions which we want to get repeatedly executed.
+
+A program is called recursive when an entity calls itself. A program is call iterative when there is a loop (or repetition).
+
+Recursion
+~Recursion uses selection structure.
+~Infinite recursion occurs if the recursion step does not reduce the problem in a manner that converges on some condition (base case) and Infinite recursion can crash the system.
+~Recursion terminates when a base case is recognized.
+~Recursion is usually slower than iteration due to the overhead of maintaining the stack.
+~Recursion uses more memory than iteration.
+~Recursion makes the code smaller.
+
+Iteration
+~Iteration uses repetition structure.
+~An infinite loop occurs with iteration if the loop condition test never becomes false and Infinite looping uses CPU cycles repeatedly.
+~An iteration terminates when the loop condition fails.
+~An iteration does not use the stack so it's faster than recursion.
+~Iteration consumes less memory.
+~Iteration makes the code longer.

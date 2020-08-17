@@ -1,0 +1,40 @@
+Algo for searching thru ele of arr
+
+JS
+
+function linearSearch(arr, item) {
+  // Go through all the elements of arr to look for item.
+  for (var i = 0; i < arr.length; i++) {
+    if (arr[i] === item) { // Found it!
+      return i;
+    }
+  }
+  
+  // Item not found in the array.
+  return null;
+}
+
+
+RUBY
+
+def linear_search(target, array)
+  counter = 0
+
+  while counter < array.length
+    if array[counter] == target
+      return counter
+    else
+      counter += 1
+    end
+  end
+  return nil
+end
+
+
+PYTHON
+
+def linear_search(array, num):
+	for i in range(len(array)):
+		if (array[i]==num):
+			return i
+	return -1
